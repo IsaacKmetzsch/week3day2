@@ -1,0 +1,35 @@
+html,body {
+   height: 100%;
+   background: rgb(233, 233, 167)
+}
+ul #flex-container {
+    display:flex;
+    list-style-type: none;
+    margin-left:10px;
+    padding-left:10px;
+}
+ul li {
+    display:flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 10px 10px 10px 10px;
+    color:#000000;
+    font-size: 15px; 
+    border: solid 2px;
+    flex-direction: row;
+}
+ul li:first-child { background: #ffffff;}
+ul li:nth-child(2) { background: #ffffff; }
+ul li:nth-child(3) { background: #ffffff; }
+ul li:last-child { background: #ffffff; }
+.top {
+    background-color: #c99a34;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow:1;
+}
+.box {
+    margin: 100px;
+    display: inline-block;
+    padding: 100px;
+}
